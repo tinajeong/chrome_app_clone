@@ -1,0 +1,57 @@
+body {
+    color: white;
+    text-align: center;
+}
+.active {
+    color : tomato;
+}
+
+.hidden {
+    display: none;
+}
+
+#clock {
+    font-size: 10em;
+    background-color:  rgba(43, 44, 43, 0.3);
+    width: 100%;
+}
+li {
+    color: lightcoral;
+}
+
+
+button {
+    border: solid 1px beige;
+    border-radius: 3px;
+    background-color: beige;
+    color: gray;
+}
+
+input {
+    border: solid 1px beige;
+    border-radius: 2px;
+}
+img {
+    width: 100%;
+}
+
+#quotes {
+    margin-top: 100px;
+}
+#quotes p {
+    font-weight: bold;
+    word-break: keep-all;
+    position: relative;
+    width: 50%; 
+    display: inline-block;
+    align-self: flex-end;
+    background-color:  rgba(43, 44, 43, 0.1);
+    border-radius: 10px;
+    margin-bottom: 7px;
+    margin-top: 1px;
+}
+
+h1 {
+    color: beige;
+    
+}
